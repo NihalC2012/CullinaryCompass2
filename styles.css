@@ -17,6 +17,9 @@ body {
     font-size: 2.5em;
     margin: 14px;
 }
+.logo h1 a{
+    text-decoration:none;
+}
 
 .menu-toggle {
     display: none; /* Hidden by default */
@@ -42,6 +45,10 @@ body {
 
 .sidebar li {
     margin: 15px 0; /* Space between links */
+}
+
+.sidebar li a {
+    text-decoration:none;
 }
 
 .sidebar a {
