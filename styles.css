@@ -4,7 +4,7 @@ body {
 }
 
 .header {
-    background-color: #f8e1d4; /* Light pink background */
+    background-color: #d1843a; /* Chocolate  background */
     padding: 0px;
     display: flex;
     justify-content: space-between; /* Space between logo and button */
@@ -13,7 +13,7 @@ body {
 }
 
 .logo h1 {
-    color: #d1843a; /* Darker orange color for the logo */
+    color: #000; /* Black color for the logo font*/
     font-size: 2.5em;
     margin: 14px;
 }
