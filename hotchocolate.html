@@ -19,11 +19,25 @@
             padding: 20px
         }
 
+        .navheader{
+    background-color: #d1843a; /* Chocolate  background */
+    padding: 0px;
+    display: flex;
+    justify-content: space-between; /* Space between logo and button */
+    align-items: center; /* Center align items vertically */
+    position: relative; /* Position relative for sidebar */
+        }
         .nav ul {
             list-style-type: none;
             margin: 0;
             padding: 0;
             overflow: hidden;
+        }
+
+        .nav h1 {
+            color: #000;
+            font-size: 2.5em;
+            margin: 14px;
         }
 
         .nav li {
@@ -59,7 +73,7 @@
 <body>
     <!-- Top menu -->
     <div class="w3-top w3-light-grey">
-        <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+        <div class="w3-white w3-xlarge navheader" style="max-width:1200px;margin:auto ">
             <!-- <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
             <!-- <div class="w3-right w3-padding-16">Mail</div> -->
             <div class="w3-left w3-padding-16 nav li a"> <a href="index.html"> Cullinary Compass </a> </div>
