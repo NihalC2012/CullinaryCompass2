@@ -13,7 +13,7 @@ body {
 }
 
 .logo h1 {
-    color: #d45d00; /* Darker orange color for the logo */
+    color: #d1843a; /* Darker orange color for the logo */
     font-size: 2.5em;
     margin: 14px;
 }
@@ -46,7 +46,7 @@ body {
 
 .sidebar a {
     text-decoration: none;
-    color: #d45d00; /* Darker orange color for links */
+    color: #000; /* Darker orange color for links */
     font-size: 1.2em;
     display: block; /* Make links block elements */
     padding: 10px 20px; /* Padding for clickable area */
