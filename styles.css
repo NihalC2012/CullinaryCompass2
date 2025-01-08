@@ -47,9 +47,6 @@ body {
     margin: 15px 0; /* Space between links */
 }
 
-.sidebar li a {
-    text-decoration:none;
-}
 
 .sidebar a {
     text-decoration: none;
